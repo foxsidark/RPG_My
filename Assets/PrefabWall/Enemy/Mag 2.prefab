@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4369293080249374}
   - component: {fileID: 212359173032807746}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: deep_elf_high_priest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4427360461782032}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WeaponPos_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4899515249889278}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WeaponPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4697643703091348}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WeaponPos_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ GameObject:
   - component: {fileID: 4905771558853200}
   - component: {fileID: 23848588317088916}
   - component: {fileID: 102539109573528980}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4350944443318738}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WeaponPos_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 114062668820283664}
   - component: {fileID: 114588854369369074}
   - component: {fileID: 114787162222120272}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Mag 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.15, y: 0.3}
+  m_Size: {x: 0.15, y: 0.21}
   m_Direction: 0
 --- !u!102 &102539109573528980
 TextMesh:

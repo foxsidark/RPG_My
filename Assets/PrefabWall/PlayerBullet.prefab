@@ -24,8 +24,8 @@ GameObject:
   - component: {fileID: 50696616578029200}
   - component: {fileID: 58576098656637306}
   - component: {fileID: 114020640070821014}
-  - component: {fileID: 114075320714833378}
-  m_Layer: 0
+  - component: {fileID: 114748607115694658}
+  m_Layer: 2
   m_Name: PlayerBullet
   m_TagString: BulletPlayer
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1143880665050824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.087, y: 0, z: 0}
+  m_LocalPosition: {x: 100000, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f4c3cfbb418f2499bf3dc8d4ee8d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114075320714833378
+--- !u!114 &114748607115694658
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -116,11 +116,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1143880665050824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c86617b90932ba140890f7885f8f25bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 60aa2d0376bb5be43867da486bba9c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Atack: 0
-  Player: {fileID: 1473001459409586, guid: 5e0285260d7bcc04ea3996eea2cc82fd, type: 2}
 --- !u!212 &212314641616129334
 SpriteRenderer:
   m_ObjectHideFlags: 1

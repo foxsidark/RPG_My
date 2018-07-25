@@ -51,21 +51,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\script\Controler.cs" />
+     <Compile Include="Assets\script\CharFollow.cs" />
+     <Compile Include="Assets\script\DestroiFixed.cs" />
      <Compile Include="Assets\script\DestroyAny.cs" />
      <Compile Include="Assets\script\EnemyDestroy.cs" />
      <Compile Include="Assets\script\EnemyFire.cs" />
+     <Compile Include="Assets\script\FireControler.cs" />
+     <Compile Include="Assets\script\FunControl.cs" />
      <Compile Include="Assets\script\HpBar.cs" />
      <Compile Include="Assets\script\HpPlayer.cs" />
+     <Compile Include="Assets\script\InventarMain.cs" />
      <Compile Include="Assets\script\LvLMagaziScript\CreateWall.cs" />
+     <Compile Include="Assets\script\LvLprocach\CharactersState.cs" />
+     <Compile Include="Assets\script\LvLprocach\ToInventar.cs" />
+     <Compile Include="Assets\script\MainMenu\ControlMainMenu.cs" />
      <Compile Include="Assets\script\MapCreat.cs" />
      <Compile Include="Assets\script\MapCreat_1.cs" />
      <Compile Include="Assets\script\MoveEnemy.cs" />
      <Compile Include="Assets\script\MovePersonag.cs" />
+     <Compile Include="Assets\script\NewControler.cs" />
      <Compile Include="Assets\script\ParamBullet.cs" />
+     <Compile Include="Assets\script\ParamBulletPlayer.cs" />
      <Compile Include="Assets\script\ParamCaracter.cs" />
+     <Compile Include="Assets\script\SpellsControl.cs" />
      <Compile Include="Assets\script\Win.cs" />
+     <None Include="Assets\Dungeon Crawl Stone Soup Full\weapons\painterly-spell-icons-3\README.txt" />
      <None Include="Assets\Dungeon Crawl Stone Soup Full\LICENSE.txt" />
+     <None Include="Assets\Dungeon Crawl Stone Soup Full\weapons\painterly-spell-icons-4\painterly-spell-icons-4\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>B:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

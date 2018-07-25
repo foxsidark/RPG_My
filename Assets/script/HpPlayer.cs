@@ -48,13 +48,16 @@ public class HpPlayer : MonoBehaviour {
         {
             
             I = 0;
-            int At = col.gameObject.GetComponent<ParamBullet>().Atack;
+            float At = col.gameObject.GetComponent<ParamBullet>().Atack;
             Hp -= At - At*(Armor/(Armor+100));
             gameObject.GetComponent<ParamCaracter>().Hp= Hp;
 
         }
         if (Hp <= 0)
-            Destroy(gameObject);
+        {
+
+            Destroy(gameObject,0.2f);
+        }
 
     }
 }

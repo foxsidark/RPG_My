@@ -38,7 +38,7 @@ public class EnemyDestroy : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D col){
 		//Debug.Log (col.gameObject.tag);
 		if (col.gameObject.tag == "BulletPlayer") {
-            int At = col.gameObject.GetComponent<ParamBullet>().Atack;
+            float At = col.gameObject.GetComponent<ParamBulletPlayer>().Atack;
             Hp -= At - At * (Armor / (Armor + 100));
             gameObject.GetComponent<ParamCaracter>().Hp = Hp;
             I = 0;
@@ -47,4 +47,18 @@ public class EnemyDestroy : MonoBehaviour {
 			Destroy (gameObject);
 
 	}
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        //Debug.Log (col.gameObject.tag);
+        if (col.gameObject.tag == "BulletPlayer")
+        {
+            float At = col.gameObject.GetComponent<ParamBulletPlayer>().Atack;
+            Hp -= At - At * (Armor / (Armor + 100));
+            gameObject.GetComponent<ParamCaracter>().Hp = Hp;
+            I = 0;
+        }
+        if (Hp <= 0)
+            Destroy(gameObject);
+
+    }
 }

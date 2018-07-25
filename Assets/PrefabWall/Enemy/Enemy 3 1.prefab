@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4183218212383674}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WeaponPos_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4939032580526570}
   - component: {fileID: 23169257494716834}
   - component: {fileID: 102095134108086000}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 114495325537129788}
   - component: {fileID: 114393085319280596}
   - component: {fileID: 114992960405812674}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Enemy 3 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4766497717169322}
   - component: {fileID: 212132990147252318}
-  m_Layer: 0
+  - component: {fileID: 95378532529411810}
+  m_Layer: 2
   m_Name: deep_elf_high_priest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +89,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4497410993545424}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WeaponPos_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +104,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4327074651363662}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WeaponPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +119,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4715228166875294}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WeaponPos_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,6 +290,23 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.15, y: 0.3}
   m_Direction: 0
+--- !u!95 &95378532529411810
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1208460162801016}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!102 &102095134108086000
 TextMesh:
   serializedVersion: 3
@@ -370,7 +388,7 @@ MonoBehaviour:
   - {fileID: 1011599198212504}
   - {fileID: 1376578685461080}
   - {fileID: 1892369554917156}
-  Weapon: {fileID: 1861929461894136, guid: 2bd6e7da625c6e948830a73952049b63, type: 2}
+  Weapon: {fileID: 1484688429491118, guid: 32be487f78db2f84684b6f968a0c78b3, type: 2}
   speedPatron: 0
   speedAtack: 100
 --- !u!212 &212132990147252318
@@ -405,7 +423,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 57819b292836d7e4f855f0f7b04e842c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 520599a9078dbc4429538ca1fc9435e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

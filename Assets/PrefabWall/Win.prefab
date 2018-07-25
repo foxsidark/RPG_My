@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4655090058081908}
   - component: {fileID: 58925234237381822}
   - component: {fileID: 114908967440046566}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4532745909864832}
   - component: {fileID: 212690140307733958}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: blood_fountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}

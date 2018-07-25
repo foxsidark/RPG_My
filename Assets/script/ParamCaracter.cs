@@ -8,7 +8,7 @@ public class ParamCaracter : MonoBehaviour {
 	public float MaxHp;
 	public float Hp;
 	public float Armor;
-	public int Atack;
+	public float Atack;
 	public float HpRegen;
 	public float SpeedRegenHp;
 	public float speed;

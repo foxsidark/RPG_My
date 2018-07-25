@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Win : MonoBehaviour {
 
     // Use this for initialization
@@ -9,6 +9,6 @@ public class Win : MonoBehaviour {
     {
         //Debug.Log (col.gameObject.tag);
         if (col.gameObject.name == "Caracters")
-            Application.LoadLevel(0);
+            SceneManager.LoadScene("LvLprocachka");
     }
 }

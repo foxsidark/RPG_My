@@ -6,5 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scen/MainMenu.unity
+    guid: f4f8a00f6dafd2340b6681c1e7b18eb2
+  - enabled: 1
+    path: Assets/Scen/LvLprocachka.unity
+    guid: cdaa129e0c442ce46a07c90137e0025e
+  - enabled: 1
     path: Assets/Scen/ScenaMap.unity
     guid: 62c932b1a850fe441b48f553c49f5811

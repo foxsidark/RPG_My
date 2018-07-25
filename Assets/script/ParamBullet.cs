@@ -5,10 +5,10 @@ using UnityEngine;
 public class ParamBullet : MonoBehaviour {
 
 	// Use this for initialization
-	public int Atack;
+	public float Atack;
 	//public GameObject Player;
 	void Start () {
-	//	Atack = Player.GetComponent<ParamCaracter> ().Atack;
+	//	Atack = GameObject.FindWithTag("Player").GetComponent<ParamCaracter> ().Atack;
 		
 	}
 	
