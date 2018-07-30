@@ -18,6 +18,11 @@ public class ControlMainMenu : MonoBehaviour {
        // N.SetActive(true);
         SceneManager.LoadScene("ScenaMap");
     }
+    public void SaveName()
+    {
+
+        
+    }
     public void BackToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");

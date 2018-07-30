@@ -9,6 +9,6 @@ public class Win : MonoBehaviour {
     {
         //Debug.Log (col.gameObject.tag);
         if (col.gameObject.name == "Caracters")
-            SceneManager.LoadScene("LvLprocachka");
+            SceneManager.LoadScene("ScenaMap");
     }
 }

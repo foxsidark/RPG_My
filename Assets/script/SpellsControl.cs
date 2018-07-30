@@ -11,6 +11,8 @@ public class SpellsControl : MonoBehaviour {
     public Text text;
     public GameObject First;
     public int timeSpellRestart=10;
+    public GameObject Music;
+    public AudioClip audioclip;
     int I1 = 10;
     void Start () {
         I1 = timeSpellRestart;
@@ -22,7 +24,7 @@ public class SpellsControl : MonoBehaviour {
 	void FixedUpdate () {
         if (I1 < timeSpellRestart) {
             image.fillAmount =(float) (timeSpellRestart-I1) / timeSpellRestart;
-            text.text = (float)(timeSpellRestart - I1)/10+"";
+            text.text = (float)(timeSpellRestart - I1)/100+"";
             I1++;
             if (timeSpellRestart <= I1)
             {
@@ -39,6 +41,7 @@ public class SpellsControl : MonoBehaviour {
     {
         if (timeSpellRestart <= I1)
         {
+           Music.GetComponent<AudioSource>().PlayOneShot(audioclip);
             I1 = 0;
             T.SetActive(true);
             //First.transform.position = Player.transform.position;

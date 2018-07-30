@@ -13,7 +13,8 @@ public class ParamCaracter : MonoBehaviour {
 	public float SpeedRegenHp;
 	public float speed;
 	public float SpeedAtack;
-	public float speedpatron;
+    public float SpeedAtackRegen;
+    public float speedpatron;
     
 
        
