@@ -16,11 +16,23 @@ public class ParamCaracter : MonoBehaviour {
     public float SpeedAtackRegen;
     public float speedpatron;
     
+    void Awake(){
+        MaxHp += NumberLvL.LvL;
+        Hp = MaxHp;
+        if (gameObject.tag != "Player")
+        {
+            Atack += NumberLvL.LvL;
+        }
 
+    }
+    
        
 	void Start () {
-		
-	}
+        
+
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

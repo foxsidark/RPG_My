@@ -63,6 +63,7 @@
      <Compile Include="Assets\script\FunControl.cs" />
      <Compile Include="Assets\script\HpBar.cs" />
      <Compile Include="Assets\script\HpPlayer.cs" />
+     <Compile Include="Assets\script\HpText.cs" />
      <Compile Include="Assets\script\InventarMain.cs" />
      <Compile Include="Assets\script\LvLMagaziScript\CreateWall.cs" />
      <Compile Include="Assets\script\LvLprocach\CharactersState.cs" />
@@ -76,10 +77,12 @@
      <Compile Include="Assets\script\MovePersonag.cs" />
      <Compile Include="Assets\script\NamePlayer.cs" />
      <Compile Include="Assets\script\NewControler.cs" />
+     <Compile Include="Assets\script\NumberLvL.cs" />
      <Compile Include="Assets\script\ParamBullet.cs" />
      <Compile Include="Assets\script\ParamBulletPlayer.cs" />
      <Compile Include="Assets\script\ParamCaracter.cs" />
      <Compile Include="Assets\script\PauseAndStart.cs" />
+     <Compile Include="Assets\script\Record.cs" />
      <Compile Include="Assets\script\SpellsControl.cs" />
      <Compile Include="Assets\script\TPSpell.cs" />
      <Compile Include="Assets\script\Win.cs" />

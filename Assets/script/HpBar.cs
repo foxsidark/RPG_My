@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class HpBar : MonoBehaviour {
 
     // Use this for initialization
@@ -18,7 +18,7 @@ public class HpBar : MonoBehaviour {
 	void Update ()
     {
         Hp1 = gameObject.GetComponent<ParamCaracter>().Hp;
-        Hp.transform.localScale = new Vector3((float)(Hp1) / MaxHp, Hp.transform.localScale.y);
+        Hp.GetComponent<Image>().fillAmount= (float)(Hp1) / MaxHp;
 
 
     }

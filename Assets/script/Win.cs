@@ -9,6 +9,9 @@ public class Win : MonoBehaviour {
     {
         //Debug.Log (col.gameObject.tag);
         if (col.gameObject.name == "Caracters")
+        {
+            NumberLvL.LvL++;
             SceneManager.LoadScene("ScenaMap");
+        }
     }
 }
