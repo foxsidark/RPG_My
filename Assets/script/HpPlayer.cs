@@ -55,7 +55,7 @@ public class HpPlayer : MonoBehaviour {
         }
         if (Hp <= 0)
         {
-
+            Record.SetNewRecord();
             Destroy(gameObject,0.2f);
         }
 

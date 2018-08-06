@@ -27,7 +27,7 @@ public class ParamCaracter : MonoBehaviour {
     }
     
        
-	void Start () {
+	/*void Start () {
         
 
 
@@ -37,5 +37,5 @@ public class ParamCaracter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-	}
+	}*/
 }
